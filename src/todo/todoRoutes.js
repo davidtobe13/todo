@@ -6,6 +6,6 @@ const router = express.Router()
 
 router.post('/addtodo', createTodo)
 router.get('/alltodos', getAllTodos)
-router.delete('/deletetodos/:id', deleteTodo)
+router.delete('/deletetodo/:id', deleteTodo)
 
 module.exports = router
